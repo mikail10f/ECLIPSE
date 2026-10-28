@@ -1,34 +1,106 @@
-body{background-color:grey;
-    }
-.container{
-     max-width: 800px;
-     margin: 30px auto;
-     border:8px solid black;
-     border-radius:15px;
-     padding: 20px;
+.{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-h1{text-align:center;
-     font-weight:bold;
-     color: #FFFFFF;
-    }
-h2{text-align:center}
+body {
+    background-color: #0b0c10; /* Hitam pekat ruang angkasa */
+    color: #c5c6c7; /* Abu-abu terang untuk teks agar nyaman dibaca */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+}
 
-p{font-size:13px;
-    text-align:center;
-   }
-p{font-size:13px;
-  text-align:center;}
+.web-wrapper {
+    background-color: #1f2833; /* Abu-abu gelap metalik */
+    border: 3px solid #45f3ff; /* Garis tepi tipis dengan efek warna cyan aurora */
+    box-shadow: 0 0 20px rgba(69, 243, 255, 0.2); /* Efek pendaran cahaya tipis */
+    width: 100%;
+    max-width: 800px;
+    border-radius: 12px;
+    overflow: hidden;
+}
 
-img{display:block;
-   margin:0px auto;}
+.navbar {
+    background-color: #151a21; /* Lebih gelap dari background container */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 25px;
+    border-bottom: 2px solid #0b0c10;
+}
 
-ul{list-style-type:none;
-  border: 5px solid black;
-  border-radius: 5px}
-li{display:inline;
-   padding:5px;}
+.brand {
+    font-size: 24px;
+    font-weight: 900;
+    letter-spacing: 4px;
+    color: #ffffff;
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.6); /* Efek bersinar pada tulisan ECLIPSE */
+}
 
-marquee{color:red}
+.nav-links {
+    display: flex;
+    gap: 15px;
+}
+
+.nav-btn {
+    text-decoration: none;
+    color: #c5c6c7;
+    padding: 8px 20px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 20px; /* Bentuk kapsul melengkung */
+    border: 1px solid transparent;
+    transition: all 0.3s ease;
+}
+    color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-color: rgba(255, 255, 255, 0.4);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+}
+
+.nav-btn.active {
+    color: #0b0c10;
+    background-color: #ffffff; /* Putih terang seperti gerhana total */
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.8);
+}
+
+.content-section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.logo-box {
+    margin-bottom: 30px;
+    display: inline-block;
+    border: 4px solid #0b0c10;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+.eclipse-img {
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+
+.title-text {
+    font-size: 22px;
+    color: #ffffff;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+}
+
+.desc-text {
+    font-size: 15px;
+    line-height: 1.6;
+    max-width: 550px;
+    margin: 0 auto;
+    color: #969799;
+}
 
 
